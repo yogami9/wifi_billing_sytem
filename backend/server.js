@@ -13,7 +13,7 @@ const paymentRoutes = require('./routes/paymentRoutes');
 const app = express();
 
 // Configuration
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 const MONGODB_URI = process.env.MONGODB_URI;
 
 // Middleware
