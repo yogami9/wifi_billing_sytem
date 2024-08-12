@@ -1,0 +1,94 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the main container */
+#user-info {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Section styles */
+#info-section, #data-plans-section, #usage-statistics {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* List styling */
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Styling for paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Additional styling for the data usage */
+#data-usage {
+    font-weight: bold;
+}
+
+.plan-list {
+    list-style-type: none;
+    padding: 0;
+}
+.plan-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+}   
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    #user-info {
+        width: 95%;
+        padding: 10px;
+    }
+    
+    h1, h2 {
+        font-size: 1.2em;
+    }
+    
+    p {
+        font-size: 0.9em;
+    }
+}
