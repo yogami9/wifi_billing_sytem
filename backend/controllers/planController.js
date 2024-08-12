@@ -1,4 +1,4 @@
-const Plan = require('../models/Plan');
+const Plan = require('../models/plan');
 
 // GET /plans
 exports.getPlans = async (req, res) => {
